@@ -1,0 +1,81 @@
+/* Reset some basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #00529B;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar h1 {
+    font-size: 1.5rem;
+}
+
+.navbar nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-form input,
+.search-form button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.accommodation-section,
+.inspiration-section,
+.info-section {
+    margin: 20px 0;
+}
+
+.accommodation-cards,
+.inspiration-cards {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
